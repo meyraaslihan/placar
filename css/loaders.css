@@ -1,0 +1,214 @@
+.preloader {
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+    background: #fff;
+}
+#tout:first-child div {
+  display: block;
+  width: 100px;
+  height: 100px;
+  border: 3px solid;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+
+#tout:first-child>div>div {
+  width: 90px;
+  height: 90px;
+  border: 5px solid;
+  border-radius: 50%;
+  margin: auto;
+  overflow: hidden;
+}
+
+#tout:first-child div div div {
+  width: 110px;
+  height: 110px;
+  margin: auto;
+  top: 360px;
+  border-radius: 0%;
+  border: none;
+  animation-name: anim, color;
+  animation-duration: 5s;
+  animation-timing-function:ease;
+  animation-iteration-count:infinite;
+  animation-direction: alternate;
+}
+
+@keyframes anim{
+
+  100% { top:0 }
+}
+
+/* @keyframes color{
+  0%  { background-color: green; }
+  25%  { background-color: green; }
+  50% { background-color: red; }
+  75% { background-color: yellow; }
+  100% { background-color: blue; }
+} */
+
+
+
+
+/* Loader Simple */
+
+.loader-circle,
+.loader-circle:after {
+  border-radius: 50%;
+  width: 10em;
+  height: 10em;
+}
+.loader-circle {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  font-size: 10px;
+  position: absolute;
+  text-indent: -9999em;
+  border-top: 1.1em solid rgba(255, 255, 255, 0.2);
+  border-right: 1.1em solid rgba(255, 255, 255, 0.2);
+  border-bottom: 1.1em solid rgba(255, 255, 255, 0.2);
+  border-left: 1.1em solid;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-animation: load8 1.1s infinite linear;
+  animation: load8 1.1s infinite linear;
+}
+@-webkit-keyframes load8 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes load8 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+/*--- Loader texture --*/
+
+#cupcake{
+flex-direction:row;
+-webkit-flex-direction:row;
+-ms-flex-direction:row;
+-mos-flex-direction:row;
+-o-flex-direction:row;
+justify-content:center;
+-webkit-justify-content:center;
+-ms-justify-content:center;
+height:100%;
+width:100%;
+background-color:#FFD454;    
+}
+
+.letter{
+    font-size:60px;
+    color:#222;
+	font-weight: 700
+}
+
+.box{
+    display: box;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+}
+
+.cupcakeCircle, .cupcakeInner, .cupcakeCore{
+     border-radius:50%;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    -ms-border-radius:50%;
+}
+
+.cupcake, .letter, .cupcakeCircle, .cupcakeInner, .cupcakeCore{
+    flex:none;
+    -webkit-flex:none;
+    -moz-flex:none;
+    -ms-flex:none;
+    -o-flex:none;
+}
+
+.letter, .cupcakeCircle{
+    align-self:center;
+    -webkit-align-self:center;
+    -moz-align-self:center;
+    -o-align-self:center;
+    -ms-align-self:center;
+}
+.cupcakeCircle{
+    align-items:center;
+    -ms-align-items:center;
+    justify-content:center;
+    -ms-justify-content:center;
+    height:60px;
+    width:60px;
+    background-color:#222;
+}
+
+.cupcakeInner{
+    align-self:center;
+    -ms-align-self:center;
+    justify-content:center;
+    -ms-justify-content:center;
+    height:50%;
+    width:50%;
+    background-color:#FFD454;
+    -webkit-animation-name:cupcakeAnimate;
+    -webkit-animation-duration:500ms;
+    -webkit-animation-direction:alternate;
+    -webkit-animation-timing-function:ease-in-out;
+    -webkit-animation-iteration-count:infinite;
+    
+}
+.cupcakeCore{
+    align-self:center;
+    -ms-align-self:center;
+    height:25%;
+    width:25%;
+    background-color:#222;
+    -webkit-animation-name:coreAnimate;
+    -webkit-animation-duration:1s;
+    -webkit-animation-direction:alternate;
+    -webkit-animation-timing-function:ease-in-out;
+    -webkit-animation-iteration-count:infinite;
+}
+
+@-webkit-keyframes cupcakeAnimate{
+        to{ height:90%; width:90%; }
+}
+@keyframes cupcakeAnimate{
+    to{ height:90%; width:90%; }
+}
+
+@-webkit-keyframes coreAnimate{
+    to{ height:90%; width:90%; }
+}
+@keyframes coreAnimate{
+    to{ height:90%; width:90%; }
+}

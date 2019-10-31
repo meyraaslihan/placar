@@ -1,0 +1,580 @@
+/*Extra small devices (portrait phones, less than 576px)
+No media query for `xs` since this is the default in Bootstrap*/
+@media (min-width: 992px) and (max-width: 1200px) {
+
+.service-tab .tab-content{
+	left: auto;
+	right: 0
+}
+.service-tab .nav-tabs .nav-item{
+	width: 480px
+}
+.room-info .btn{
+	padding: 0 25px
+}
+}
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (max-width: 1199px) {
+	.achievement-2 div.h2 {
+		font-size: 36px
+	}
+	.achievement-2 span.h6 {
+		font-size: 14px;
+		width: 100%;
+		margin-left: 0;
+		margin-top: 0;
+	}
+	/*====================================================================
+	Home Page 1 Css Start
+	====================================================================*/
+	.navbar-collapse .btn{
+		display: none
+	}
+	#property-search{
+		padding-top: 80px;
+
+	}
+	.property-search-form.upper-place-bottom-w-100{
+		position: static !important
+	}
+	#property-search .container .row{
+		margin-left: -15px;
+		margin-right: -15px
+	}
+	#about-us {
+		padding-top: 80px !important;
+	}
+	.property-search-form input.form-control {
+		padding: 10px;
+	}
+
+	.property-search-form .form-group {
+		margin-right: 15px;
+		display: inline-block
+	}
+	.contact-form-1::after {
+		border-right: 305px solid transparent;
+		border-left: 306px solid transparent;
+	}
+	.footer-widget.instagram ul li {
+		width: 65px;
+		height: 65px;
+	}
+	.place-item-details .photo-galary img:nth-child(3n){
+		margin-right: 20px
+	}
+	.place-item-details .photo-galary img:nth-child(2n){
+		margin-right: 0
+	}
+	.comment-item .content{
+		padding: 20px
+	}
+	/*====================================================================
+	Home Page 2 Css Start
+	====================================================================*/
+	.achievement-2 .upper-place-bottom-w-100{
+		position: static
+	}
+	.upper-place-full{
+		padding: 30px !important
+	}
+	.upper-place-full .text-white{
+		font-size: 22px
+	}
+	.upper-place-full p{
+		display: none
+	}
+	.bg-img-10 {
+		background-size: 35%
+	}
+	.room-thumb-grid-2 .per-night {
+		font-size: 16px
+	}
+}
+@media screen and (min-width:992px){
+	/*-------annimation dropdown---------*/
+	.navbar .navbar-nav > .active > a, 
+	.navbar .navbar-nav > .active:hover > a, 
+	.navbar .navbar-nav > .active > a:focus {
+		background-color: transparent;
+		-moz-transition: all 300ms ease-in-out 0s;
+		-ms-transition: all 300ms ease-in-out 0s;
+		-o-transition: all 300ms ease-in-out 0s;
+		-webkit-transition: all 300ms ease-in-out 0s;
+		transition: all 300ms ease-in-out 0s
+	}
+	.navbar .navbar-nav li a,
+	.navbar .navbar-nav li ul.dropdown-menu {
+		-moz-transition: all 300ms ease-in-out 0s;
+		-ms-transition: all 300ms ease-in-out 0s;
+		-o-transition: all 300ms ease-in-out 0s;
+		-webkit-transition: all 300ms ease-in-out 0s;
+		transition: all 300ms ease-in-out 0s
+	}
+	.navbar .navbar-nav li > ul.dropdown-menu {
+		visibility: hidden;
+		display: block;
+		opacity: 0;
+		-ms-transform: scale(0.9);
+		-o-transform: scale(0.9);
+		-webkit-transform: scale(0.9);
+		-moz-transform: scale(0.9);
+		transform: scale(0.9)
+	}
+	.navbar .navbar-nav li:hover > ul.dropdown-menu {
+		visibility: visible;
+		opacity: 1;
+		-ms-transform: scale(1);
+		-o-transform: scale(1);
+		-webkit-transform: scale(1);
+		-moz-transform: scale(1);
+		transform: scale(1)
+	}
+	.navbar-nav .dropdown-menu ul {
+		left: 100%;
+		top:0
+	}
+	.navbar-expand-lg .navbar-nav .dropdown-menu .dropdown-menu{
+		top: -10px
+	}
+	#header.fixed-top {
+		position: fixed !important;
+		top: 0;
+		right: 0;
+		left: 0;
+		z-index: 999;
+		animation-duration: 1s;
+		animation-name: menu-sticky;
+		animation-timing-function: ease-in-out;
+		margin: 0;
+		box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+		padding: 10px !important;
+		border: none
+	}
+	.header-2 .navbar-header{
+		padding-top: 40px
+	}
+	.header-1 .navbar-header {
+		padding-bottom: 20px
+	}
+	.header-1.fixed-top .navbar-header,
+	.header-2.fixed-top .navbar-header	{
+		padding: 0
+	}
+}
+/*Large devices (desktops, 992px and up)*/
+@media (max-width: 991px) {
+	.achievement-2.container {
+		max-width: 100% !important;
+		margin: 0
+	}
+	.achievement-2 .item {
+		padding-left: 10px;
+	}
+	.mt-sm-20 {
+		margin-top: 20px
+	}
+	.mb-sm-20 {
+		margin-bottom: 20px
+	}
+	.mt-sm-30 {
+		margin-top: 30px
+	}
+	.mb-sm-30 {
+		margin-bottom: 30px
+	}
+	.dropdown-menu {
+		background: transparent;
+		padding: 0
+	}
+	.navbar-nav .nav-link {
+		font-weight: 500;
+		text-transform: unset
+	}
+	.nav-on-top {
+		position: static
+	}
+	.testimonial-item-1 img {
+		margin-bottom: 20px
+	}
+	.testimonial-1 {
+		padding: 50px 50px 100px;
+	}
+	.bg-img-8 {
+		background: none
+	}
+	.bg-img-10 {
+		background-image: none
+	}
+	.event-item .down-line-left {
+		width: 100%
+	}
+	.event-item-details .event-img .cd100 {
+		padding: 0 20px
+	}
+	.cd100 li span:first-child {
+		font-size: 30px;
+	}
+	.cd100 li span:last-child {
+		font-size: 14px;
+	}
+	.sidebar {
+		margin-top: 50px
+	}
+	/*====================================================================
+	Home Page 1 Css Start
+	====================================================================*/
+	.property-search-form-1 {
+		margin-top: 50px
+	}
+	.header-1, .header-2, .header-3 {
+		position: static
+	}
+	.header-1, .header-2 {
+		padding: 10px 0 !important
+	}
+	.header-1 .navbar-light .navbar-toggler {
+		border-color: rgba(255, 255, 255, 0.5);
+	}
+	.header-1 .navbar-light .navbar-toggler-icon {
+		background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E")
+	}
+	[class*="header-"] .top-header{
+		display: none;
+	}
+	.navbar{
+		padding: 0
+	}
+	.navbar-toggler.navbar-toggler-right {
+		background: rgba(255, 255, 255, .7);
+	}
+	#about-us .img-1{
+		margin-top: 30px
+	}
+	#achievement .item{
+		margin-bottom: 30px
+	}
+	#offer {
+		padding-bottom: 180px;
+	}
+	.boking span {
+		display: block;
+		margin-top: 20px;
+	}
+	.contact-form-1::after {
+		border-right: 345px solid transparent;
+		border-left: 345px solid transparent;
+	}
+	.footer-widget{
+		margin-bottom: 50px
+	}
+	.service-tab .nav-tabs .nav-item:nth-child(odd){
+		margin-right: 360px
+	}
+	.service-tab .tab-content{
+		width: 350px
+	}
+	.cd100 li{
+		width: 25%
+	}
+	.freedom-find .main-title-area,
+	.newsletter-2 input{
+		width: 100%
+	}
+	.offset-2{
+		margin: 0
+	}
+	/*====================================================================
+	About Us Page Css Start
+	====================================================================*/
+	#page-banner .banner-title {
+		font-size: 24px;
+	}
+	#page-banner .pages-link {
+		margin-top: 10px;
+	}
+	.our-differents .img-1{
+		margin-left: 0;
+		display: none
+	}
+	.our-differents .text-block-2{
+		margin-right: 0;
+		margin-bottom: 30px
+	}
+	/*====================================================================
+	Home Page 3 Css Start
+	====================================================================*/
+	.header-3 .navbar-light .navbar-toggler {
+		border-color: rgba(9, 67, 160, 0.5)
+	}
+	.header-3 .navbar-light .navbar-toggler-icon {
+		background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(9, 67, 160, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E")
+	}
+	.room-thumb-list-1 .for-booking {
+		margin-top: 20px;
+		padding-top: 0;
+		display: table;
+		margin-left: 0;
+		border-left: none
+	}
+	.for-booking .btn{
+		margin-left: 15px
+	}
+	.room-thumb-list-1 .per-night{
+		margin-bottom: 0;
+		float: left
+	}
+	[class*="room-thumb-list-"] .room-info{
+		padding: 0 15px 0 0
+	}
+	.place-item-details .photo-galary img{
+		width: 210px
+	}
+	.our-coffee{
+		padding: 20px
+	}
+	.banar-video-title{
+		font-size: 18px
+	}
+	.schedule{
+		padding: 20px
+	}
+	.hot-offer h4 {
+		font-size: 24px;
+		line-height: 36px
+	}
+	.offset-3{
+		margin: 0
+	}
+	.newsletter-2 button{
+		right: 30px
+	}
+	.property-search-form-2 h3{
+		font-size: 24px
+	}
+	.package-item.special{
+		padding: 40px 0px;
+		margin: auto
+	}
+	[class*="room-thumb-list-"] .for-booking {
+		margin-left: 0
+	}
+	.room-thumb-list-2 .for-booking {
+		padding: 30px
+	}
+	[class*="room-thumb-list-"] .per-night {
+		margin: 0;
+		line-height: 45px;
+		display: inline-block
+	}
+	.event-item .event-info {
+		padding: 30px;
+	}
+	.property-search-form-2.position {
+		position: static;
+		margin: 0
+	}
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (max-width: 767px) {
+	.post-detail-2 {
+		padding: 30px;
+	}
+	.mt-xs-20 {
+		margin-top: 20px
+	}
+	.mt-xs-50 {
+		margin-top: 50px
+	}
+	.achievement-2 .item {
+		padding-top: 10px;
+		padding-bottom: 10px
+	}
+	.testimonial-2 {
+		padding: 50px 20px
+	}
+	.testimonial-3 .testimonial-item-1 .opinion {
+		margin-left: 0;
+		display: inline-block;
+	}
+	.testimonial-item-1 .opinion {
+		margin-left: 0
+	}
+	/*====================================================================
+	Home Page 1 Css Start
+	====================================================================*/
+	.free-service-item {
+		width: 100%;
+	}
+	.place-item-details .photo-gallery a {
+		width: 48%;
+		margin: 0 2% 5px 0;
+	}
+	[class*="room-thumb-list-"] .room-info {
+		padding: 15px
+	}
+	.date-type-2 span {
+		display: inline-block;
+		margin-bottom: 0;
+		padding: 0 5px;
+	}
+	.property-search-form-2 {
+		margin-top: 50px;
+		position: static;
+	}
+	.angle-shade:before {
+		display: none
+	}
+	.main-title-area .title{
+		font-size: 36px
+	}
+	#offer {
+		padding-bottom: 80px;
+	}
+	.hot-offer{
+		margin-bottom: 50px
+	}
+	.testimonial-1{
+		padding: 30px 30px 100px 30px
+	}
+	.testimonial-1 .upper-place-bottom-w-100{
+		position: static !important
+	}
+	.testimonial-item {
+		padding: 50px 50px 100px;
+	}
+	.testimonial-item .img-1 {
+		display: block;
+		float: inherit;
+		margin: 0 0 30px;
+	}
+	.testimonial-1 .carousel-indicators{
+		margin-left: 45px;
+		right: auto
+	}
+	#awesome-places {
+		padding-top: 80px !important;
+	}
+	#contact .offset-2{
+		margin-left: 0 !important
+	}
+	.service-tab .nav-tabs .nav-item, .newsletter-2 input{
+		width: 100%
+	}
+	.service-tab .nav-tabs .nav-item:nth-child(odd){
+		margin: 0
+	}
+	.newsletter-2 button{
+		right: 20px
+	}
+	.left-right-line:before, .left-right-line:after{
+		width: 50px
+	}
+	.left-right-line:after{
+		right: -60px
+	}
+	.left-right-line:before{
+		left: -60px
+	}
+	/*====================================================================
+	About Us Page Css Start
+	====================================================================*/
+	#page-banner .banner-title {
+		font-size: 23px
+	}
+	#page-banner .pages-link {
+		margin-top: 5px
+	}
+	.experience-years, .service-tab .tab-content{
+		display: none
+	}
+	.offset-3{
+		margin: 0
+	}
+	.gallery-section .filter-btns li{
+		margin: 0 13px
+	}
+	.gallery-section .filter-btns li{
+		font-size: 14px
+	}
+	.food-booking-form.main-title-area{
+		width: 100%
+	}
+	.bg-img-10{
+		background-image: none
+	}
+	.offset-2{
+		margin: 0
+	}
+	.contact-form-1::after {
+		border-right: 255px solid transparent;
+		border-left: 255px solid transparent
+	}
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (max-width: 575px) {
+.right-line:after, .left-right-line:before {
+	display: none
+}
+/*====================================================================
+Home Page 1 Css Start
+====================================================================*/
+.navbar {
+	padding: 0 15px
+}
+.navbar-toggler {
+	padding: 5px 10px;
+	font-size: 15px;
+}
+.main-title-area .subtext{
+	letter-spacing: 4px
+}
+.left-right-line::before,
+.left-right-line::after{
+	display: none
+}
+.contact-form-1{
+	padding-bottom: 80px
+}
+.contact-form-1::after {
+	display: none
+}
+.footer-1 {
+	padding-top: 80px !important
+}
+/*====================================================================
+About Us Page Css Start
+====================================================================*/
+#page-banner,
+#page-banner .pages-link{
+	margin-left: auto;
+	margin-right: auto;
+	display: table;
+	text-align: center
+}
+#page-banner .pages-link{
+	float: none !important;
+	padding-top: 20px
+}
+#page-banner .banner-title {
+	font-size: 25px;
+}
+.place-item-details .photo-galary img{
+	width: 100%;
+	margin-right: 0
+}
+.place-item-details .photo-galary img:nth-child(3n),
+.place-item-details .photo-galary img:nth-child(2n){
+	margin-right: 0
+}
+}
+
+@media (min-width:992px) {
+/*From Bootstrap*/
+.navbar-expand-lg .navbar-nav .nav-link {
+	padding-right: 1rem;
+	padding-left: 1rem
+}
+}

@@ -1,0 +1,341 @@
+body {
+	color: #818181
+}
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6{
+	color: #0943a0
+}
+/*===== btn Color CSS =====*/
+.btn-default-bg {
+	color: #2a2a2a;
+	background-color: #ffd633;
+	border-color: #ffd633
+}
+.btn-default-bg:hover {
+	color: #ffd633;
+	background-color: transparent;
+	border-color: #ffd633
+}
+.btn-default{
+	color: #ffd633;
+	border-color: #ffd633
+}
+.btn-default:hover{
+	color:  #2a2a2a;
+	background-color: #ffd633;
+	border-color: #ffd633
+}
+.btn-primary {
+	color: #0943a0;
+	border-color: #0943a0
+}
+.btn-lg-default:hover{
+	background-color: transparent;
+	color: #ffd633
+}
+.btn-primary:hover, .btn-primary-bg{
+	color: #fff;
+	background-color: #0943a0;
+	border-color: #0943a0
+}
+.btn-lg-primary:hover, .btn-primary-bg:hover{
+	background: transparent;
+	color: #0943a0
+}
+/*===== Nav Color CSS =====*/
+.btn-lg-primary, .navbar-light .navbar-nav .nav-link{
+	color: #fff
+}
+.navbar-header .navbar-light .navbar-nav .nav-link.active, 
+.navbar-header .navbar-light .navbar-nav .nav-link:active,
+.navbar-header .navbar-light .navbar-nav .nav-link:hover, 
+.navbar-header .navbar-light .navbar-nav .nav-link:focus {
+	color: #ffd633;
+	background: transparent
+}
+.header-3 .navbar-nav .nav-link,
+.header-4 .navbar-nav .nav-link{
+	color: #0943a0
+}
+.header-3 .nav-item > .nav-link:hover {
+	color: #0943a0
+}
+.dropdown-item:hover, .dropdown-item:focus, 
+.dropdown-toggle:hover, .dropdown-toggle:focus,
+.dropdown-item.active, .dropdown-item:active,
+.dropdown-toggle.active, .dropdown-toggle:active {
+	background-color: #f5f5f5;
+	color: #0943a0
+}
+
+.header-3 .navbar-header .navbar-light .navbar-nav .nav-link:hover,
+.header-3 .navbar-header .navbar-light .navbar-nav .nav-link.active,
+.header-4 .navbar-header .navbar-light .navbar-nav .nav-link.active,
+.header-4 .navbar-header .navbar-light .navbar-nav .nav-link:hover{
+	background-color: #f5f5f5;
+	color: #0943a0;
+	border-color: #ffd633
+}
+/*===== Custom Font Color CSS =====*/
+select, .text-block-2, .icon-list-1 li, .icon-list-1 li::before,
+.text-white, .text-white p, .text-white-a a, .icon-white i,
+.flat-white [class^="flaticon-"]::before, .upcoming-event span.icon, 
+.upcoming-event p, .copyright-2 .line-ul li a, #page-banner .pages-link li,
+#page-banner .pages-link li a, .widget.form-style-1, 
+.widget.form-style-1 .inner-title, .food-item-2 .food-name span, 
+.our-coffee h3, .widget.get-ticket,
+footer .social-media li a, .page-item:hover .page-link, .widget.get-ticket h4,
+.widget.social-feed h3, .widget.social-feed p, .widget.social-feed i,
+.widget.get-ticket b, .contact-info .title, .text-block-4 h5, 
+.social-media-3 li a, .error h3, .error p, .social-media-4 a:hover {
+	color: #fff
+}
+.text-black, .btn-lg-default,
+.service-item-2:hover p, .activity-item:hover,
+[class*="room-thumb-"] .room-size, .post-type.upper-place-top-left,
+[class*="room-thumb-list-"] .facility-icon li, .choose-item .number,
+.img-2 .upper-place-top-left, .offer-dish-info .price span, 
+.food-booking-form.main-title-area p, .form-style-2 ::placeholder,
+.form-style-2 .bootstrap-select .btn-option, .nav-pills .nav-link.active,
+.rating-count-1 b, .rating-count-1 span, .review-2, .widget.events .date,
+.widget.events .info p, .event-detail-info .date, .date-type-2,
+.blog-item-details blockquote, .flat-black [class^="flaticon-"]::before {
+	color: #2a2a2a
+}
+.introduce-block-1 .designation {
+	color: #6c6c6c
+}
+.icon-in-list-1 li a, [class*="contact-form-"] .form-control::placeholder,
+[class*="room-thumb-"] .per-night small, .testimonial-item-1 .designation,
+[class*="post-detail"] .date, .offer-dish-info .price del, .introduce-block-2 span,
+.widget.hotel-booking-number span, .widget.hotel-booking-number b,
+.place-detail-info span, .place-detail-info .distance, .amount-per-night span, 
+.room-detail-info .float-left span, .comment-item .name-date,
+.widget.events .info span, .icon-in-list-2 li, .one-line-ul li, .testimonial-item-3{
+	color: #a5a5a5
+}
+.property-search-form-2 input.form-control, .widget.events a,
+.property-search-form-2 .bootstrap-select .btn-option,
+.widget.check-form .bootstrap-select .btn-option, 
+.bootstrap-select .btn-option, .service-tab .nav-tabs .nav-link p{
+	color: #818181
+}
+.bootstrap-select .dropdown-menu.inner li a{
+	color: #a1a1a1;
+}
+[class*="room-thumb-"] .subtext{
+	color: #898989
+}
+.facility p, .facility-item-1 p{
+	color: #c1c1c1
+}
+.text-block-4 span, .text-block-4 p{
+	color: #c5d1e4
+}
+/*===== Custom BG Color CSS =====*/
+.bg-white, #slider [class*="-line"]::after, .right-line:after,
+.header-3 .navbar, .property-search-form-1, .post-item-2,
+.property-search-form-2, .video-popup span, .widget.hotel-booking-number,
+.activity-item, .service-tab .nav-tabs .nav-link, .header-1 .navbar-toggler-icon,
+.testimonial-title .left-right-line:before, .widget.check-form,
+.testimonial-title .left-right-line:after, .widget.text-block-3,
+.testimonial-2 .carousel-indicators li, .food-item .food-name span,
+.left-right-line.text-white::after, .left-right-line.text-white::before,
+.nav-pills .nav-link, .progress-style-1 .progress, .comment-item .content,
+.header-4.fixed-top, .carousel-indicators.round li, .contact-info .title::after, 
+footer .social-media li:hover, .header-2 .navbar-toggler-icon,
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+	background-color: #fff
+}
+.bg-info, .room-thumb-list-2 .for-booking, 
+.bootstrap-select .dropdown-menu.open{
+	background-color: #f1f1f1
+}
+.bg-gray, [class*="contact-form-"] .form-control, 
+.widget.check-form .form-control{
+	background-color: #f5f5f5
+}
+.room-thumb-grid-2, .room-thumb-list-2{
+	background-color: #f8f8f8
+}
+.achievement-4::before, .achievement-4::after,
+.place-item-details .line{
+	background-color: #dedede
+}
+.copyright-3{
+	background-color: #022762
+}
+.footer-bg {
+	background-color: #04327b
+}
+.overlay-footer:before {
+	background-color: rgba(4, 50, 123, 0.90) !important;
+}
+
+/*===== Default Font Color CSS =====*/
+.text-default, .text-default-a a, .icon-default i, .upcoming-event span.icon i,
+.flat-default [class^="flaticon-"]::before, .testimonial-item-2 .name,
+.footer-widget li a:hover, .service-item-2 [class^="flaticon-"]::before,
+.awesome-place-item a:hover, .testimonial-item-1 .opinion i, .service-type-2 b,
+.newsletter-2 button, .copyright-2 .line-ul li a:hover, .service-type-2 a:hover,
+.facility-item-1 i:before, #page-banner .pages-link li:last-child,
+.gallery-section .filter-btns li:hover, .gallery-section .filter-btns li.active,
+.widget.hotel-booking-number i, .room-detail-info .review i, .review-3,
+.review-4, .icon-block-1 i, .icon-list-2 li i, [class*="room-thumb"] .title a:hover,
+[class*="post-item"] .title a:hover, .blog_widget a:hover, 
+.widget.events .info span::before, .widget.get-ticket span, .social-media-2 li a:hover,
+.event-item-details .comment-item a, .error .left-right-line,
+.error .left-right-line::before, .error .left-right-line::after,
+.blog-item-details .comment-item a, .image-block-1:hover a, .choose-item a:hover,
+.introduce-block-2 a:hover, .social-media-3 a:hover, .event-item .inner-title a:hover{
+	color: #ffda47
+}
+/*===== Default BG Color CSS =====*/
+.bg-default, .icon-list-3 li::after, .down-line-left:after,
+.down-line-center:after, #slider .carousel-indicators li.active, 
+.activity-item:hover, .service-tab .nav-tabs .nav-link:hover,
+.service-tab .nav-tabs .nav-link.active, .choose-item .number,
+.testimonial-1 .carousel-indicators li.active, .footer-2 .footer-logo, 
+.testimonial-2 .carousel-indicators li.active, .rating-count-1,
+.food-item .food-type, .img-2 .upper-place-top-left, #tout:first-child div div div,
+.offer-item-slide .carousel-indicators li, .nav-pills .nav-link,
+.progress-style-1 .progress-bar, .page-item.active .page-link, .carousel-indicators.round li.active,
+.event-detail-info .date, .btn-lg-default, .widget.events .date , 
+.bootstrap-select .dropdown-menu.open li:hover,
+.bootstrap-select .dropdown-menu.inner li.selected a{
+	background-color: #ffda47
+}
+/*===== Primary Font Color CSS =====*/
+.text-primary, .text-primary-a a, .icon-primary i,
+.flat-primary [class^="flaticon-"]::before, 
+.activity-item:hover [class^="flaticon-"]::before,
+.service-item-2:hover [class^="flaticon-"]::before,
+.btn-link,.icon-in-list-1 li i, .contact-form-3 .right-line::after, 
+footer .social-media li:hover a, .widget.events a:hover{
+	color: #0943a0
+}
+.food-item .food-name span,
+.bootstrap-select .dropdown-menu.inner li a:hover, .offer-dish-info .price label,
+.bootstrap-select .dropdown-menu.inner li.selected a, .widget.hotel-booking-number b,
+.property-search-form-1 input.form-control, .package-item ul li:first-child em,
+.property-search-form-3 input.form-control, .package-item.special em,
+.room-thumb-grid-2 .facility-1 li, .room-thumb-grid-2 .facility-1 li a,
+.place-detail-info .distance strong, .place-detail-info .distance span,
+.amount-per-night b, .room-detail-info .review, .nav-pills .nav-link,
+.table-style-3 td span, .comment-item .name-date span, .icon-in-list-2 li i,
+.gallery-section .filter-btns li, .social-media-area span, .social-media-2 li a,
+.one-line-ul li i, .blog-item-details blockquote::after, .social-media-4 li a,
+[class*="post-item"] .title a, .blog_widget a{
+	color: #0943a0
+}
+/*===== Primary BG Color CSS =====*/
+.bg-primary {
+	background-color: #0943a0 !important
+}
+.navbar-toggler-icon, .left-right-line:before, .btn-lg-primary,
+.left-right-line:after, .testimonial-1 .carousel-indicators li,
+.activity-item:hover .down-line-center:after, .widget.form-style-1,
+.food-item-2 .food-name span, .food-item-2 .food-name span,
+.offer-item-slide .carousel-indicators li.active, .widget.get-ticket,
+.page-item:hover .page-link, .widget.social-feed, .social-media-4::before,
+.social-media-4::after{
+	background-color: #0943a0
+}
+/*===== Secondary Font Color CSS =====*/
+.text-secondary{
+	color: #a5a5a5
+}
+/*===== RGB Color CSS =====*/
+.header-3.fixed-top, .room-thumb-grid-1 .facility-icon li,
+[class*="room-thumb-grid-"] .upper-place-bottom-right{
+	background: rgba(255, 255, 255, 0.8)
+}
+.slider-overlay-1,
+[class*="overlay-"]:before, .slider-overlay:before{
+	background: rgba(9, 67, 160, .65)
+}
+.overlay-2:before{
+	background: rgba(9, 67, 160, .9);
+}
+.overlay-3:before{
+	background: #0943a0;
+	background: -moz-linear-gradient(45deg, #0943a0 0%, #e9f1ff 100%);
+	background: -webkit-linear-gradient(45deg, #0943a0 0%,#e9f1ff 100%);
+	background: linear-gradient(45deg, #0943a0 0%,#e9f1ff 100%);
+	opacity: .5
+}
+.overlay-4:before{
+	background: rgba(2, 21, 52, .7);
+}
+.overlay-5:before{
+	background: rgba(9, 67, 160, .3);
+}
+.header-1.fixed-top, .header-2.fixed-top{
+	background: rgba(4, 50, 123, 0.8)
+}
+/*===== Border Color CSS =====*/
+.social-media li, .header-1 .navbar-light .navbar-toggler,
+.header-2 .navbar-light .navbar-toggler{
+	border-color: #fff
+}
+.header-1{
+	border-color: #a5b3be
+}
+.loader-circle {
+	border-left-color: #ffda47
+}
+#tout:first-child div,
+#slider .carousel-indicators li.active, .btn-lg-default{
+	border-color: #ffda47
+}
+.btn-lg-primary, #tout:first-child>div>div,
+.bootstrap-select > .dropdown-menu,
+.food-item .food-name::after,
+.navbar-light .navbar-toggler, .property-search-form-3 input.form-control,
+.package-item ul li:first-child em, .gallery-section .filter-btns{
+	border-color: #0943a0
+}
+[class*="room-thumb-list-"] .facility-icon li,
+[class*="room-thumb-list-"] .room-size,
+.room-thumb-list-1 .for-booking, .bootstrap-select .btn-option, 
+.property-search-form-1 input.form-control {
+	border-color: #e1e1e1
+}
+.form-style-2 .form-control, .form-style-2 textarea,
+.form-style-2 .bootstrap-select .btn-option{
+	border-color: #2a2a2a
+}
+.introduce-block-2{
+	border-color: #818181
+}
+.widget.text-block-3, .widget.hotel-booking-number,
+.widget.check-form{
+	border-color: #dadada
+}
+.copy-right{
+	border-top: 1px solid #4b6081
+}
+.choose-item .number::after {
+	border-color: transparent transparent #ffda47 transparent
+}
+.food-item .food-type::after {
+	border-color: #ffda47 transparent transparent transparent
+}
+.comment-item .content::after {
+	border-color: transparent #fff transparent transparent
+}
+
+@media screen and (max-width:991px){
+	.header-1, .header-2 {
+	    background: rgba(4, 50, 123, 1);
+		border-bottom: 1px solid #0943a0;
+	}
+	.header-1.fixed-top, .header-2.fixed-top {
+		background: rgba(4, 50, 123, 1);
+	}
+	.navbar-header .navbar-light .navbar-nav .nav-link:hover,
+	.navbar-header .navbar-light .navbar-nav .nav-link.active {
+		background: transparent !important;
+		color: #ffd633 !important;
+		border: none !important
+	}
+}

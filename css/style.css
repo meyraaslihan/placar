@@ -1,0 +1,2555 @@
+@import url('animate.min.css');
+@import url('owl.css');
+/*===== 01. Default Css By Bootstrap =====*/
+.form-control:focus {
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102,175,233,.6);
+}
+.form-control{
+	height: 46px;
+	border-radius: 23px;
+	padding: 0 20px;
+	font-weight: 500;
+	line-height: 42px
+}
+.btn-option.dropdown-toggle, .btn-option.dropdown-toggle:hover,
+.btn-option.dropdown-toggle:focus{
+	background: transparent
+}
+button{
+	background: transparent;
+	border: none;
+	padding: 0
+}
+button:focus{
+	outline: none
+}
+select {
+	background: transparent;
+	border: none;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+    appearance: none;
+}
+.btn{
+	font-weight: 600;
+	text-transform: uppercase;
+	line-height: 42px;
+	border-radius: 23px;
+	padding: 0 25px;
+	border: 2px solid transparent;
+	font-family: 'Montserrat', sans-serif;
+	background-color: transparent;
+}
+.btn-link {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase
+}
+.btn-link:hover{
+	text-decoration: none
+}
+.btn-lg-primary, .btn-lg-default{
+	width: 250px;
+	line-height: 70px;
+	border-radius: 0;
+	font-size: 16px;
+	font-weight: 600;
+	border: 2px solid
+}
+.bg-img-1{
+	background: url(../img/bg/1.jpg)
+}
+.bg-img-2 {
+	background: rgba(0, 0, 0, 0) url("../img/bg/2.jpg") no-repeat center center;
+	background-size: cover;
+}
+.bg-img-4{
+	background: url(../img/bg/4.jpg)
+}
+.bg-img-3 {
+	background: rgba(0, 0, 0, 0) url("../img/bg/3.jpg") no-repeat center center;
+	background-size: cover;
+}
+.bg-img-5{
+	background-image: url(../img/bg/5.jpg);
+	background-position: center center;
+	background-size: cover;
+}
+.bg-img-6{
+	background: url(../img/bg/6.jpg) 0 0/ 100% 100%
+}
+.bg-img-7 {
+	background: rgba(0, 0, 0, 0) url("../img/bg/7.jpg") no-repeat center center;
+	background-size: cover;
+}
+.bg-img-8 {
+	background: rgba(0, 0, 0, 0) url("../img/bg/8.png") no-repeat right bottom / 40%;
+}
+.bg-img-9 {
+	background: rgba(0, 0, 0, 0) url("../img/bg/9.jpg") no-repeat center center;
+	background-size: cover;
+}
+.bg-img-10 {
+	background-image: url("../img/bg/10.png");
+	background-repeat: no-repeat;
+	background-position:  right bottom;
+	background-size: 28%
+}
+.bg-img-11 {
+	background: rgba(0, 0, 0, 0) url("../img/bg/11.jpg") no-repeat center center;
+	background-size: cover;
+}
+.bg-img-12 {
+	background: rgba(0, 0, 0, 0) url("../img/bg/12.jpg") no-repeat center center;
+	background-size: cover;
+}
+.bg-img-13 {
+	background: rgba(0, 0, 0, 0) url("../img/bg/13.jpg") no-repeat center center;
+	background-size: cover;
+}
+/*===== 02.Default Css by flaticon Start =====*/
+[class^="flaticon-"]::before, [class*=" flaticon-"]::before, [class^="flaticon-"]::after, [class*=" flaticon-"]::after {
+	margin-left: 0 !important;
+}
+/*===== 03.Default Css Start =====*/
+body{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px
+}
+p{
+	line-height: 28px
+}
+a{
+	display: block
+}
+a:hover{
+	text-decoration: none
+}
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none
+}
+h1, .h1, h2, .h2, h3, .h3{
+	font-family: 'Oleo Script', cursive;
+}
+h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6{
+	font-weight: 700
+}
+h4, .h4, h5, .h5, h6, .h6{
+	font-family: 'Montserrat', sans-serif;
+}
+h1, .h1{
+	font-size: 48px;
+}
+h2, .h2{
+	font-size: 40px;
+}
+h3, .h3{
+	font-size: 30px
+}
+h4, .h4{
+	font-size: 24px;
+}
+h5, .h5{
+	font-size: 21px;
+}
+h6, .h6{
+	font-size: 18px;
+}
+img{
+	width: 100%
+}
+.full-row{
+	width: 100%;
+	position: relative
+}
+.font-family-1{
+	font-family: 'Montserrat', sans-serif
+}
+.font-family-2{
+	font-family: 'Oleo Script', cursive
+}
+.flat-medium [class^="flaticon-"]::before{
+	font-size: 40px
+}
+.flat-large [class^="flaticon-"]::before{
+	font-size: 50px
+}
+/*===== 04.Margin and Padding CSS =====*/
+.mt--80 {
+	margin-top: -80px
+}
+.mr--15, .mx--15{
+	margin-right: -15px !important
+}
+.ml--15, .mx--15{
+	margin-left: -15px !important
+}
+.mt-30, .my-30{
+	margin-top: 30px !important
+}
+.mb-30, .my-30{
+	margin-bottom: 30px !important
+}
+section{
+	padding: 80px 0
+}
+.p-0{
+	padding: 0
+}
+.py-60 {
+	padding-top: 60px !important;
+	padding-bottom: 60px !important
+}
+.px-30 {
+	padding-left: 30px !important;
+	padding-right: 30px !important;
+}
+.p-40{
+	padding: 40px !important
+}
+.pt-80, .py-80{
+	padding-top: 80px !important
+}
+.pr-20, .px-20{
+	padding-right: 20px !important
+}
+.pb-15{
+	padding-bottom: 15px !important
+}
+.pb-20{
+	padding-bottom: 20px !important
+}
+.py-20 {
+	padding-top: 20px !important;
+	padding-bottom: 20px !important
+}
+.pt-40, .py-40{
+	padding-top: 40px
+}
+.pb-40, .py-40{
+	padding-bottom: 40px
+}
+.pb-50{
+	padding-bottom: 50px !important
+}
+.pb-80, .py-80{
+	padding-bottom: 80px !important
+}
+.pl-20, .px-20{
+	padding-left: 20px !important;
+}
+.py-100{
+	padding-top: 100px;
+	padding-bottom: 100px
+}
+.pb-130{
+	padding-bottom: 130px !important
+}
+.p-20 {
+	padding: 20px !important
+}
+.pt-30 {
+	padding-top: 30px !important
+}
+/*===== Form CSS =====*/
+.form-style-1 .form-control{
+	border-radius: 0;
+	border: none
+}
+/*===== 05.Title CSS =====*/
+.main-title-area.text-center .title{
+	display: table;
+	margin-left: auto;
+	margin-right: auto;
+}
+.main-title-area .subtext{
+	font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+}
+.main-title-area .title span{
+	display: block;
+}
+.main-title-area .down-line-left{
+	padding-bottom: 20px;
+	margin-bottom: 30px
+}
+.main-title-area .down-line-left::after{
+	width: 120px;
+	height: 5px;
+}
+.title-area-2 small{
+	font-size: 17px;
+	display: block;
+	margin-bottom: 5px
+}
+/*===== 06.Position Center, Middle and Others CSS =====*/
+.position {
+	position: absolute
+}
+.x-center{
+	display: table;
+	margin-left: auto;
+	margin-right: auto
+}
+.xy-center{
+	position: absolute;
+	left: 50%;
+	top: 50%
+}
+.upper-place-middle{
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%)
+}
+[class*="upper-place-"]{
+	position: absolute;
+	z-index: 9
+}
+.upper-place-full{
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0
+}
+.upper-place-top-left{
+	top: 0;
+	left: 0;
+}
+.upper-place-top-right{
+	top: 0;
+	right: 0;
+}
+.upper-place-bottom-left{
+	bottom: 0;
+	left: 0;
+}
+.upper-place-bottom-right{
+	bottom: 0;
+	right: 0
+}
+.upper-place-bottom-w-100{
+	bottom: 0;
+	width: 100%;
+	left: 0
+}
+.right-15 {
+	right: 15px
+}
+.l-0{
+	left: 0 !important;
+}
+.t-0{
+	top: 0 !important;
+}
+.r-0{
+	right: 0 !important;
+}
+.b-0{
+	bottom: 0 !important
+}
+.fw-5{
+	font-weight: 500
+}
+.z-index-up{
+	z-index: 99999
+}
+.z-index-down{
+	z-index: -99999
+}
+/*===== 07.Social Media CSS =====*/
+.social-media li {
+	float: left;
+	margin-right: 15px;
+	height: 45px;
+	width: 45px;
+	border-radius: 50%;
+	border: 1px solid transparent
+}
+.social-media li:last-child{
+	margin-right: 0
+}
+.social-media li a {
+	color: #ffda47;
+	text-align: center;
+	font-size: 16px;
+	line-height: 45px;
+}
+[class*="text-block"] p:last-child{
+	margin-bottom: 0
+}
+/*===== 08.Block CSS =====*/
+.text-block-1 p {
+	margin-bottom: 25px
+}
+.text-block-2 p {
+	margin-bottom: 25px
+}
+.introduce-block-1 .name {
+	font-weight: 500;
+	font-size: 17px;
+	margin-bottom: 10px
+}
+.icon-block-1 {
+	position: relative;
+	padding-left: 25px;
+}
+.icon-block-1 span {
+	display: block;
+	line-height: 30px
+}
+.icon-block-1 i {
+	position: absolute;
+	left: 0;
+	top: 0;
+	font-size: 18px;
+}
+/*===== 09.List CSS =====*/
+.icon-list-1 li {
+	position: relative;
+	padding-left: 25px;
+	margin-bottom: 10px;
+}
+.icon-list-1 li:last-child{
+	margin-bottom: 0
+}
+.icon-list-1 li::before {
+	content: "\f00c";
+	font-family: "Font Awesome 5 Free";
+	font-weight: 900;
+	position: absolute;
+	left: 0;
+}
+.icon-list-2 li i{
+	margin-right: 10px
+}
+.icon-list-3 li{
+	position: relative;
+	padding-left: 15px;
+	margin-bottom: 15px
+}
+.icon-list-3 li::after{
+	width: 7px;
+	height: 7px;
+	position: absolute;
+	left: 0;
+	top: 8px;
+	content: ""
+}
+.icon-in-list-1{
+	display: inline-block
+}
+.icon-in-list-1 li{
+	float: left;
+	margin-right: 10px;
+	font-size: 13px;
+}
+.icon-in-list-1 li i{
+	margin-right: 5px
+}
+.hover_zoom :before, .hover_zoom:before{
+	z-index: 1
+}
+.hover_zoom:hover [class*="overlay-"]:before{
+	background: transparent
+}
+/*===== 10.Line and Overlay CSS =====*/
+[class*="-line"], [class*="overlay-"] {
+	position: relative
+}
+[class*="-line"]:after, [class*="-line"]:before,
+[class*="overlay-"]:before, [class*="slider-overlay"]:before {
+	position: absolute;
+	content: ""
+}
+[class*="overlay-"]:before, .slider-overlay:before {
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0
+}
+.right-line{
+	display: table
+}
+.right-line:after{
+	right: -120px;
+	bottom: 10px;
+	width: 100px;
+	height: 2px
+}
+.left-right-line:before, .left-right-line:after{
+	width: 80px;
+	height: 2px;
+	top: 50%
+}
+.left-right-line:before{
+	left: -100px;
+}
+.left-right-line:after{
+	right: -100px;
+}
+.down-line-left{
+	padding-bottom: 15px
+}
+.down-line-left:after{
+	width: 30px;
+	height: 3px;
+	left: 0;
+	bottom: 0
+}
+.down-line-center:after{
+	width: 50px;
+	height: 2px;
+	left: 50%;
+	bottom: 0
+}
+/*====================================================================
+	11.Header Section Css Start
+====================================================================*/
+.nav-on-banner {
+    animation-fill-mode: both;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 999
+}
+.nav-on-top {
+    animation-fill-mode: both;
+    width: 100%;
+    z-index: 999;
+    top: 0;
+    position: absolute;
+}
+.header-1, .header-3{
+	position: absolute;
+	z-index: 999;
+	width: 100%
+}
+.header-1{
+	border-bottom: 1px solid transparent
+}
+.top-header{
+	font-size: 13px
+}
+.top-header ul li{
+	margin-left: 20px;
+	float: left
+}
+.top-header i {
+	margin-right: 5px
+}
+.navbar-nav .nav-link {
+	text-transform: uppercase;
+	font-weight: 500
+}
+#header.fixed-top .top-header{
+	display: none
+}
+@keyframes menu-sticky {
+0% {
+    margin-top: -150px;
+}
+50% {
+    margin-top: -90px;
+}
+100% {
+    margin-top: 0;
+}
+}
+.dropdown-menu{
+	border-radius: 0;
+	min-width: 15rem;
+}
+.dropdown-item {
+	padding: .70rem 1.5rem;
+	font-size: 14px;
+	font-weight: 500;
+	color: #818181
+}
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+	top: 60px
+}
+.dropdown-menu .dropdown-toggle::after{
+	transform: rotate(-90deg)
+}
+.dropdown-menu{
+	border: none
+}
+.navbar-toggler-icon{
+	height: 2px;
+	display: table;
+	margin: 6px 0
+}
+/*====================================================================
+	12.Header-3 css
+====================================================================*/
+form.language{
+	display: table;
+	float: right;
+	margin-right: 10px
+}
+form.language .bootstrap-select .btn-option{
+	color: #fff;
+	border: none;
+	padding: 0;
+	width: auto;
+}
+form.language .bootstrap-select .btn-option:hover{
+	background: transparent
+}
+form.language .dropdown-toggle::after {
+	margin-top: 8px;
+	margin-left: 5px;
+	border-top: 6PX solid;
+	border-right: 6PX solid transparent;
+	border-left: 6PX solid transparent;
+}
+.top-header form.language ul li{
+	margin: 0
+}
+/*====================================================================
+	13.Header-3 & Header-4 css
+====================================================================*/
+.header-3.fixed-top .navbar, .header-4.fixed-top .navbar{
+	padding: 0 15px
+}
+.header-3 .navbar, .header-4 .navbar {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.header-3.fixed-top .navbar{
+	background: transparent
+}
+.header-3 .navbar-header .navbar-light .navbar-nav .nav-link,
+.header-4 .navbar-header .navbar-light .navbar-nav .nav-link {
+	border-bottom: 2px solid transparent
+}
+/*====================================================================
+	13.1.Home Page 5 Css Start
+====================================================================*/
+.slider-5{
+	margin-top: -45px;
+	position: relative !important
+}
+.push-up-menu {
+	position: relative;
+	top: 45px;
+	z-index: 9999;
+	color: #fff;
+	font-size: 30px;
+	cursor: pointer;
+	display: table;
+	margin-left: auto;
+	margin-right: 10px
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #fff;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+	z-index: 99
+}
+.sidenav .navbar-expand-lg .navbar-nav{
+	display: block;
+	width: 100%
+}
+.sidenav .navbar-nav li:first-child{
+	border-top: 1px solid #f1f1f1;
+}
+.sidenav .navbar-nav li{
+	float: none;
+	border-bottom: 1px solid #f1f1f1;
+}
+.sidenav .navbar-nav li a {
+	font-size: 14px;
+	color: #0943a0 !important;
+	display: block;
+	transition: 0.3s;
+		padding: 5px 0 !important;
+	
+}
+.sidenav .navbar-nav li a:hover {
+    color: #ffd633 !important;
+}
+.sidenav .navbar-nav .dropdown-item{
+	padding: 5px 15px !important
+}
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+#main {
+    transition: margin-right .5s;
+}
+/*====================================================================
+	14.Check Availability Css Start
+====================================================================*/
+.property-search-form-1{
+    width: 100%;
+    position: relative;
+    z-index: 99;
+    display: table;
+}
+.property-search-form-1, .property-search-form-2{
+	padding: 40px 30px
+}
+.bootstrap-select.form-control {
+	padding: 0;
+	height: 46px;
+	border: none;
+	border-radius: 23px
+}
+.form-group {
+    margin-bottom: 1rem;
+    display: table;
+    width: 100%;
+}
+.bootstrap-select .btn-option {
+	background: transparent;
+	border: 2px solid transparent;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+	border-radius: 25px;
+	text-align: left;
+	width: 100%;
+	padding: 0 20px
+}
+.bootstrap-select ul.dropdown-menu li a{
+	line-height: 35px;
+	font-weight: 400;
+	font-size: 14px
+}
+.bootstrap-select ul.dropdown-menu li a:focus {
+	box-shadow: none;
+	outline: none
+}
+.dropdown-toggle::after{
+	margin-top: 8px;
+    float: right;
+}
+.form-control .dropdown-toggle::after{
+	margin-top: 18px;
+}
+.bootstrap-select > .dropdown-menu {
+	margin-top: 0;
+	border: none;
+	min-width: 100%;
+	padding: 0;
+}
+.bootstrap-select .dropdown-menu.show{
+	display: table;
+	width: 100%
+}
+.bootstrap-select .dropdown-menu.inner {
+	position:t relative;
+	min-width: 100%;
+	display: block;
+	border: none;
+	z-index: 999;
+	position: static;
+	background: transparent;
+	padding-top: 0;
+	padding-bottom: 0
+}
+.bootstrap-select .dropdown-menu.inner li a {
+	padding: 0 20px;
+	cursor: pointer
+}
+.bootstrap-select > select {
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	z-index: -1;
+	left: 0;
+	margin: 0
+}
+.property-search-form-1 form {
+	margin-top: 1rem
+}
+.property-search-form-1 input.form-control,
+.property-search-form-3 input.form-control,
+.bootstrap-select.form-control{
+	width: 100%;
+	float: left;
+}
+.property-search-form-1 input.form-control,
+.property-search-form-3 input.form-control{
+	border: 2px solid transparent
+}
+.property-search-form-1 .form-group {
+	padding-right: 5px !important;
+	padding-left: 5px !important;
+}
+/*====================================================================
+	15.About Us Section Css Start
+====================================================================*/
+.free-service-item{
+	width: 48%
+}
+.free-service-item:nth-child(even){
+	margin-right: 0 !important
+}
+.free-service-item span{
+	width: 70px;
+	height: 70px
+}
+.free-service-item span [class^="flaticon-"]:before{
+	line-height: 70px
+}
+.free-service-item .inner-title{
+	line-height: 70px;
+	margin: 0;
+	font-family: 'Montserrat', sans-serif
+}
+/*====================================================================
+	16.Living Room Section Css Start
+====================================================================*/
+.overflow_hidden{
+	overflow: hidden
+}
+[class*="room-thumb-"]{
+	-webkit-box-shadow: 0 0 10px 0 rgba(0,0,0,.15);
+	box-shadow: 0 0 10px 0 rgba(0,0,0,.15);
+}
+[class*="room-thumb-"] .room-info{
+	display: inline-block
+}
+[class*="room-thumb-"] .facility-icon li{
+	padding: 8px 10px
+}
+[class*="room-thumb-"] .room-size{
+	padding: 9px 15px;
+	font-weight: 500
+}
+[class*="room-thumb-grid-"] .room-info {
+	padding: 20px;
+	width: 100%;
+}
+[class*="room-thumb-grid-"] .upper-place-bottom-right{
+	bottom: 20px;
+	right: 20px
+}
+.room-thumb-grid-1 .upper-place-bottom-left {
+	bottom: 15px;
+	left: 20px
+}
+.room-thumb-grid-1 .facility-icon li {
+	margin-bottom: 5px
+}
+.room-thumb-grid-1 .facility-icon li:last-child{
+	margin-bottom: 0
+}
+.room-thumb-grid-1 .per-night{
+	margin-bottom: 0;
+	float: left;
+	margin-top: 10px
+}
+.room-thumb-grid-2, .room-thumb-list-2{
+	box-shadow: none
+}
+.room-thumb-grid-2 .facility-1{
+	display: inline-block;
+	margin-top: 20px;
+	width: 100%;
+	font-weight: 500
+}
+.room-thumb-grid-2 .facility-1 li{
+	float: left
+}
+.room-thumb-grid-2 .per-night{
+	float: right;
+	line-height: 45px;
+	margin-bottom: 0
+}
+[class*="room-thumb-list-"] .facility-icon{
+	float: left;
+	display: table
+}
+[class*="room-thumb-list-"] .facility-icon li {
+	border: 1px solid transparent;
+	margin-right: 5px;
+	float: left
+}
+[class*="room-thumb-list-"] .facility-icon li:last-child{
+	margin-right: 0
+}
+[class*="room-thumb-list-"] .room-size {
+	border: 1px solid transparent;
+	float: left;
+	margin-left: 5px
+}
+[class*="room-thumb-list-"] .per-night{
+	text-align: center;
+	margin-bottom: 40px
+}
+[class*="room-thumb-list-"] .for-booking{
+	margin-left: -15px;
+	padding: 60px 0;
+	text-align: center
+}
+[class*="room-thumb-list-"] .room-info {
+	padding: 10px 0 10px 0
+}
+.room-thumb-list-1 .for-booking {
+	border-left: 1px solid transparent;
+	height: 80%;
+	margin-top: 28px;
+	text-align: center;
+	padding-top: 40px;
+	margin-left: -15px
+}
+.room-thumb-list-1 img{
+	height: 100%
+}
+.room-thumb-list-2 .for-booking{
+	height: 100%;
+	border-left: none;
+	margin-top: 0;
+	padding: 75px 0
+}
+.room-thumb .subtext,
+.room-info .subtext {
+	line-height: 26px;
+}
+/*====================================================================
+	18.Our Packages section css Start
+====================================================================*/
+.package-item.special{
+	padding: 70px 0;
+	margin-top: -30px;
+	margin-left: -20px;
+	margin-right: -20px
+}
+.package-item .h4{
+	font-size: 24px;
+	font-weight: 600
+}
+.package-item ul li:first-child{
+	padding-bottom: 20px;
+	font-weight: 500
+}
+.package-item ul li:first-child em{
+	border-bottom: 2px solid transparent;
+	padding-bottom: 10px
+}
+.package-item ul li{
+	padding: 10px 0
+}
+/*====================================================================
+	19.Offer section css Start
+====================================================================*/
+.hot-offer h4{
+	font-size: 35px;
+	line-height: 55px;
+}
+.boking strong{
+	font-size: 18px;
+	margin-left: 10px;
+	margin-right: 10px;
+	text-transform: uppercase
+}
+.boking span{
+	font-size: 17px;
+    display: inline-block;
+    line-height: 45px;
+    font-weight: 500;
+}
+.cd100 li{
+	width: 25%
+}
+.cd100 li span:first-child{
+	font-size: 40px;
+}
+.cd100 li span:last-child{
+	font-size: 13px;
+}
+/*====================================================================
+	20.Awesome Place css Start
+====================================================================*/
+.awesome-place-item .upper-place-bottom-left{
+	bottom: 30px;
+	left: 30px;
+	right: 30px
+}
+.awesome-place-item h4{
+	font-size: 24px;
+}
+.awesome-place-item span,
+.awesome-place-item .h4 small{
+	font-size: 14px;
+}
+/*====================================================================
+	21.Contact css Start
+====================================================================*/
+.contact-form-1{
+	position: relative
+}
+.contact-form-1::after {
+	border-top: 100px solid #fff;
+	border-right: 365px solid transparent;
+	border-left: 365px solid transparent;
+	position: absolute;
+	content: "";
+	left: 0;
+	z-index: 1
+}
+#map {
+    height: 600px;
+	width: 100%
+}
+/*====================================================================
+	22.Image Slider section css Start
+====================================================================*/
+.image-gallery{
+	margin-bottom: -10px;
+	position: relative;
+	width: 100%
+}
+.ls-v5 .ls-bottom-nav-wrapper {
+	top: -50px !important;
+}
+[class*="-gallery"] [class*="overlay-"]:before, [class*="-gallery"] span {
+	font-size: 30px;
+	z-index: 1;
+	display: none
+}
+[class*="-gallery"] a:hover [class*="overlay-"]:before,
+[class*="-gallery"] a:hover span {
+	display: block
+}
+/*====================================================================
+	23.Footer section css Start
+====================================================================*/
+.footer-1{
+	padding-top: 170px !important
+}
+.footer-logo img{
+	width: auto;
+	margin: 0 auto;
+	display: table
+}
+.widget-title{
+	text-transform: uppercase;
+	margin-bottom: 30px;
+	padding-bottom: 20px;
+}
+.footer-widget li a,
+.footer-widget p{
+	color: #fff;
+	font-weight: 400;
+}
+.footer-widget ul li{
+	margin-bottom: 20px
+}
+.footer-widget.get-in-touch ul{
+	margin-bottom: 30px
+}
+.footer-widget.get-in-touch ul a{
+	position: relative;
+	padding-left: 25px
+}
+.footer-widget.get-in-touch ul a i{
+	margin-right: 10px;
+	position: absolute;
+	left: 0;
+	top: 3px;
+}
+.footer-widget.get-in-touch ul li:last-child a{
+	font-size: 20px;
+	font-weight: 700
+}
+.footer-widget.instagram ul{
+	padding-top: 5px;
+	display: inline-block
+}
+.footer-widget.instagram ul li{
+	width: 80px;
+	height: 80px;
+	float: left;
+	margin: 0 5px 5px 0
+}
+.footer-widget.newsletter .form-control{
+	height: 50px;
+	margin-bottom: 10px
+}
+.footer-widget.newsletter .btn-default-bg{
+	line-height: 46px;
+    border-radius: 25px;
+}
+/*====================================================================
+	24.Shape on Slider css
+====================================================================*/
+.angle-shade{
+	position: relative
+}
+.angle-shade:before{
+	position: absolute;
+	content: "";
+	left: -20px;
+	right: 0;
+	bottom: -70px;
+	width: 110%;
+	height: 150px;
+	background: #f5f5f5;
+	transform: rotate(-4deg);
+	z-index: 99
+}
+/*====================================================================
+	25.Achievement-2 css
+====================================================================*/
+.property-search-form-2 {
+	z-index: 99;
+}
+.achievement-2{
+	position: relative;
+	z-index: 99;
+	margin-top: -113px
+}
+.achievement-2 div.h2{
+	font-size: 48px;
+	display: table;
+	float: left
+}
+.achievement-2 span.h6 {
+	font-size: 16px;
+	width: 90px;
+	float: left;
+	margin-left: 20px;
+	margin-top: 10px
+}
+.achievement-2 .item {
+	padding-left: 30px
+}
+/*====================================================================
+	26.Service-2 css
+====================================================================*/
+.service-item-2{
+	background-color: #fff;
+	padding: 30px;
+	position: relative;
+	padding-left: 90px;
+	min-height: 150px
+}
+.service-item-2:hover{
+	background-color: #ffda47
+}
+.service-item-2 p{
+	margin-bottom: 0
+}
+.service-item-2 [class^="flaticon-"]::before {
+	font-size: 40px;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+	transition: none
+}
+
+/*====================================================================
+	27.banar-video-2 css
+====================================================================*/
+.video-area-2{
+	margin-top: -230px
+}
+.freedom-find{
+	padding-bottom: 150px
+}
+.freedom-find .main-title-area {
+	width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.freedom-find .subtext{
+	font-size: 24px;
+	font-weight: 700
+}
+/*====================================================================
+	28.special-offer-2 css
+====================================================================*/
+.room-thumb .upper-place-top-left{
+	top: 35px;
+	left: 25px;
+	font-family: 'Oleo Script', cursive;
+	font-weight: 700;
+	font-size: 20px;
+	color: #fff
+}
+.room-thumb .upper-place-top-left span {
+	border-radius: 50%;
+	background: #ffda47;
+	text-align: center;
+	padding: 14px 9px;
+	color: #2a2a2a
+}
+/*====================================================================
+	29.Testimonial-1 css
+====================================================================*/
+[class*="testimonial-item"] img{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+}
+.testimonial-1{
+	margin-top: -90px;
+	padding: 50px 100px 100px;
+}
+.testimonial-1 .carousel {
+	position: inherit
+}
+.testimonial-1 .carousel-indicators{
+	bottom: 35px
+}
+.testimonial-1 .carousel-indicators li{
+	height: 5px
+}
+.testimonial-item-1 img{
+	float: left;
+}
+.testimonial-item-1 .opinion{
+	margin-left: 150px;
+}
+.testimonial-item-1 .opinion i {
+	margin-right: 10px;
+	font-size: 20px
+}
+.testimonial-item-1 p{
+	font-size: 16px;
+	font-style: italic
+}
+/*====================================================================
+	30.Testimonial-2 css Home page-2
+====================================================================*/
+.testimonial-2{
+	border-radius: 100px 0 100px 0;
+	padding: 50px 100px
+}
+.testimonial-2 .carousel-indicators{
+	bottom: 100px
+}
+.testimonial-2 .carousel-indicators li {
+	border-radius: 50%;
+	width: 10px;
+	height: 10px
+}
+.testimonial-2 .carousel-indicators li.active{
+	width: 20px;
+	height: 10px;
+	border-radius: 5px
+}
+.testimonial-2 .carousel-indicators {
+	bottom: -100px;
+}
+.testimonial-item-2 img {
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 30px;
+	display: table;
+}
+.testimonial-item-2 .name{
+	margin-top: 40px
+}
+.testimonial-3 .testimonial-item-1 .opinion{
+	margin-left: 150px
+}
+/*====================================================================
+	31.About Us 2 css Home page-2
+====================================================================*/
+.mt_580{
+	margin-top: -580px
+}
+.property-search-form-2 h3{
+	margin-bottom: 30px
+}
+.property-search-form-2 .form-group{
+	display: table;
+	width: 100%
+}
+.property-search-form-2 input.form-control, 
+.property-search-form-2 .bootstrap-select.form-control,
+.property-search-form-2 .btn{
+	width: 100%
+}
+.property-search-form-2 input.form-control,
+.property-search-form-2 .bootstrap-select .btn-option{
+	border: 2px solid #eeeeee;
+	width: 100%
+}
+/*====================================================================
+	32.Latest Post css Home page-2
+====================================================================*/
+.post-type.upper-place-top-left {
+	padding: 5px 10px;
+	left: 15px;
+	top: 15px;
+	font-size: 13px;
+	font-weight: 500
+}
+.date i{
+	margin-right: 10px
+}
+.upcoming-event span.icon{
+	margin-top: 10px;
+	margin-bottom: 30px;
+	display: inline-block
+}
+.upcoming-event span.icon i {
+	margin-right: 10px;
+}
+.upcoming-event .cd100{
+	margin-bottom: 30px;
+	display: inline-block;
+	width: 100%
+}
+.upcoming-event .cd100 li span:first-child {
+	font-size: 30px;
+}
+/*====================================================================
+	33.Event Page Css Start
+====================================================================*/
+.event-item {
+	height: 100%
+}
+.event-item .title-area{
+	display: inline-block;
+	width: 100%
+}
+.event-item .date{
+	width: 70px;
+	height: 70px;
+	display: block;
+	padding: 8px;
+	margin: 0 20px 0 0;
+	float: left;
+	font-size: 15px;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase
+}
+.event-item .date b{
+	font-size: 21px;
+	display: table;
+	margin: 0px auto
+}
+.event-item .down-line-left {
+	text-transform: uppercase;
+	float: left;
+	margin: 18px 0;
+	width: 75%
+}
+.event-item .inner-title a{
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap
+}
+.event-item .event-info{
+	padding: 20px 20px 20px 0
+}
+
+/*====================================================================
+	34.Event Details Page Css Start
+====================================================================*/
+ol{
+	margin: 0;
+	padding: 0
+}
+.widget.guest-important,
+.widget.events{
+	background: #fff;	
+	border: 1px solid #dadada;
+}
+.widget.guest-important li{
+	list-style: decimal inside;
+	margin-bottom: 10px
+}
+.widget.social-feed{
+	padding-bottom: 60px
+}
+.widget.social-feed i{
+	font-size: 13px
+}
+.widget.social-feed .carousel-indicators{
+	bottom: -30px
+}
+.carousel-indicators.round li{
+	width: 10px;
+	height: 10px;
+	border-radius: 50%
+}
+.widget.events li{
+	margin-bottom: 15px;
+	width: 100%;
+	display: inline-block
+}
+.widget.events li:last-child{
+	margin-bottom: 0
+}
+.widget.events .date{
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    padding: 5px 0;
+    float: left;
+    margin-right: 10px;
+	margin-bottom: 0
+}
+.widget.events .date b{
+	font-size: 21px;
+	display: block;
+}
+.widget.events .info{
+	display: table
+}
+.widget.events .info p {
+	font-size: 14px;
+	font-weight: 500;
+	margin-bottom: 5px;
+	line-height: 22px;
+}
+.widget.events .info span{
+	position: relative;
+	font-size: 12px
+}
+.widget.events .info span::before {
+	content: "\f3c5";
+	font-weight: 900;
+	font-family: "Font Awesome 5 Free";
+	margin-right: 7px;
+	font-size: 13px;
+}
+.widget.get-ticket{
+	text-align: center
+}
+.widget.get-ticket i{
+	font-size: 40px;
+	margin-bottom: 20px
+}
+.widget.get-ticket span{
+	display: block;
+	margin-top: 15px
+}
+.widget.get-ticket b{
+	display: block;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 20px;
+	margin: 15px 0
+}
+.cd100{
+	display: inline-block;
+	width: 100%
+}
+.event-item-details h5{
+	margin: 25px 0;
+}
+.event-item-details p{
+	margin-bottom: 15px
+}
+.event-item-details .event-img .cd100{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	padding: 0 100px
+}
+.event-detail-info {
+	margin-top: 30px;
+	display: inline-block;
+	margin-bottom: 20px;
+	width: 100%
+}
+
+.event-detail-info .date {
+	float: left;
+	padding: 10px 25px;
+	text-align: center;
+	font-size: 16px;
+	font-weight: 500;
+	margin-right: 20px
+}
+.event-detail-info b {
+	display: block;
+	font-size: 24px;
+}
+.event-detail-info .rent-per-night {
+	margin-left: 100px
+}
+.event-detail-info .rent-per-night h3{
+	margin-bottom: 15px
+}
+.icon-in-list-2 li{
+	float: left;
+	margin-right: 20px;
+	font-size: 13px;
+	line-height: 30px
+}
+.icon-in-list-2 li i{
+	margin-right: 5px
+}
+.social-media-area{
+	padding: 20px 0;
+	border-top: 1px solid #dadada;
+	border-bottom: 1px solid #dadada;
+	display: inline-block;
+	width: 100%
+}
+.social-media-area span{
+	float: left;
+	margin-right: 20px;
+	font-weight: 600
+}
+.social-media-2 li{
+	float: left;
+	margin-right: 20px
+}
+.social-media-2 li:last-child{
+	margin-right: 0
+}
+.event-item-details .contact-form-3 form{
+	margin-top: 30px
+}
+.event-item-details .comment-item a{
+	display: inline;
+	margin-left: 20px
+}
+/*====================================================================
+	35.Latest Post css Home page-3
+====================================================================*/
+.post-item-2 img{
+	height: 100%
+}
+.post-detail-2{
+	padding: 30px 20px 18px 0
+}
+.post-item-2 .post-detail-2 .date,
+.post-item-2 .post-detail-2 h6{
+	margin-bottom: 20px
+}
+/*====================================================================
+	36.Contact form-2 css  Home page-2
+====================================================================*/
+.mb_200{
+	margin-bottom: -200px
+}
+.contact-form-2{
+	position: relative;
+	padding: 50px 30px;
+	margin-bottom: -420px;
+	z-index: 9
+}
+/*====================================================================
+	37.Footer-2 css
+====================================================================*/
+.footer-2{
+	padding-top: 400px !important;
+	overflow: hidden
+}
+.angle-1 {
+	width: 0;
+	height: 0;
+	border-left: 1920px solid #f5f5f5;
+	border-top: 0px solid transparent;
+	border-bottom: 300px solid transparent;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.footer-top{
+	border-bottom: 2px solid #7085a7;
+}
+.footer-2 .footer-logo{
+	 width: 250px; 
+   height: 140px;
+   -moz-border-radius: 125px / 70px;
+   -webkit-border-radius: 125px / 70px;
+   border-radius: 125px / 70px;
+	padding: 45px 0
+}
+.newsletter-2{
+	position: relative;
+}
+.newsletter-2 input {
+	background: transparent;
+	border: 2px solid #6888ba;
+	width: 560px;
+	height: 60px;
+	padding: 10px 45px 10px 25px;
+}
+.newsletter-2 input::placeholder,
+.newsletter-2 input{
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500
+}
+.newsletter-2 button {
+	position: absolute;
+	right: 7px;
+	top: 17px;
+	cursor: pointer;
+	font-size: 18px
+}
+.copyright-2 .line-ul {
+  display: table;
+  list-style: outside none none;
+  margin: 0;
+  padding: 0;
+}
+.copyright-2 .line-ul li {
+	float: left;
+	color: #fff;
+}
+.copyright-2 .line-ul li:nth-child(even) {
+	margin: 0 10px;
+}
+/*====================================================================
+	38.Slider-3 css
+====================================================================*/
+.slider-3 .carousel-indicators{
+	display: none
+}
+.slider-3 .carousel-caption h1 span{
+	display: block;
+	font-size: 30px;
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	line-height: 70px
+}
+.slider-3 .carousel-caption p{
+	font-size: 18px;
+	font-family: 'Montserrat', sans-serif;
+}
+/*====================================================================
+	39.Facility css Page 3
+====================================================================*/
+.facility-item-1{
+	text-align: center;
+	margin-bottom: 30px
+}
+.facility-item-1 i:before{
+	font-size: 50px;
+}
+.facility-item-1 h5{
+	color: #fff;
+	margin: 10px 0 20px
+}
+/*====================================================================
+	40.Contact form 3 css Page 3
+====================================================================*/
+.contact-form-3 .btn{
+	border-radius: 0;
+	float: left
+}
+/*====================================================================
+	41.Why Choose Us css Page 4
+====================================================================*/
+.choose-item {
+	position: relative;
+	padding-left: 70px;
+}
+.choose-item .number {
+	position: absolute;
+	border-radius: 50%;
+	height: 50px;
+	width: 50px;
+	text-align: center;
+	font-size: 18px;
+	font-weight: 600;
+	left: 0;
+	top: 0;
+	padding-top: 12px;
+}
+.choose-item .number::after {
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 0 25px 25px;
+	content: "";
+	position: absolute;
+	right: 0px;
+	top: 26px;
+}
+.achievement-4{
+	position: relative;
+	margin-top: 50px
+}
+.achievement-4::before,
+.achievement-4::after{
+	position: absolute;
+	height: 2px;
+	content: "";
+	left: 50%;
+	transform: translateX(-50%)
+}
+.achievement-4::before{
+	width: 170px;
+	top: 0;
+}
+.achievement-4::after{
+	width: 70%;
+	top: 30px;
+}
+/*====================================================================
+	42.Page banner css
+====================================================================*/
+#page-banner .banner-title{
+	font-family: 'Montserrat', sans-serif;
+	margin: 0
+}
+#page-banner .pages-link{
+	float: right;
+	margin-top: 8px
+}
+#page-banner .pages-link li {
+	float: left;
+	margin-right: 5px;
+}
+#page-banner .pages-link li:last-child{
+	margin-right: 0
+}
+/*====================================================================
+	43.About Us Page css
+====================================================================*/
+.experience-years {
+	font-size: 80px;
+	font-weight: 700;
+	width: 230px;
+	line-height: 100px;
+	text-align: center;
+}
+.our-differents .img-1{
+	margin-left: -15px;
+	height: 100%;
+}
+.our-differents .img-1 img{
+	height: 100%
+}
+.our-differents .text-block-2{
+	margin-right: -15px
+}
+/*====================================================================
+	44.Photo Galary section css
+====================================================================*/
+.gallery-section .filter-btns {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-top: 2px solid transparent;
+	border-bottom: 2px solid transparent;
+	display: table;
+	margin: 0 auto 50px
+}
+.gallery-section .filter-btns li {
+	cursor: pointer;
+	font-size: 16px;
+	font-weight: 700;
+	margin: 0 15px;
+	transition: all 300ms ease 0s;
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	float: left;
+	padding: 10px 0
+}
+.filter-list .mix {
+	display: none
+}
+.gallery-section .column {
+	margin-bottom: 15px
+}
+/*====================================================================
+	45.Restaurant page css
+====================================================================*/
+.pt-35{
+	padding-top: 35px
+}
+.food-item, .food-item-2 {
+	position: relative;
+}
+.food-item p{
+	margin-bottom: 0
+}
+.food-item .food-name{
+	font-weight: 500;
+	font-size: 16px;
+}
+.food-item .food-name, .food-item-2 .food-name {
+	position: relative;
+	width: 100%;
+	display: inline-block;
+	z-index: 99
+}
+.food-item-2 .food-name{
+	font-size: 14px
+}
+.food-item .food-name::after{
+	border-bottom: 2px dotted transparent
+}
+.food-item .food-name::after,
+.food-item-2 .food-name::after {
+	height: 5px;
+	width: 100%;
+	left: 0;
+	top: 9px;
+	position: absolute;
+	content: "";
+	z-index: -9;
+}
+.food-item-2 .food-name::after{
+	border-bottom: 2px dotted #fff;
+}
+.food-item .food-name span:first-child,
+.food-item-2 .food-name span:first-child{
+	float: left;
+	padding-right: 5px;
+}
+.food-item .food-name span:last-child,
+.food-item-2 .food-name span:last-child{
+	float: right;
+	padding-left: 6px
+}
+.food-item .food-type {
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 2px 8px;
+	font-size: 11px;
+	color: #fff;
+}
+.food-item .food-type::after {
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 10px 8px 0 8px;
+	position: absolute;
+	content: "";
+	left: 6px;
+	bottom: -10px;
+}
+.img-2 .upper-place-top-left {
+	top: 20px;
+	left: 35px;
+	padding: 5px 10px;
+	font-size: 18px;
+	font-weight: 600
+}
+.offer-dish-info{
+	padding: 30px
+}
+.offer-dish-info .price{
+	font-weight: 500;
+	margin-top: 15px
+}
+.offer-dish-info .price label {
+	margin-right: 10px;
+}
+.offer-dish-info .price del {
+	margin-right: 10px
+}
+.offer-item-slide{
+	margin-bottom: 50px
+}
+.offer-item-slide .carousel-indicators{
+	bottom: -10px
+}
+.offer-item-slide .carousel-indicators li{
+	width: 10px;
+	height: 10px;
+	border-radius: 50%
+}
+.our-coffee{
+	padding: 30px;
+}
+.our-coffee .left-right-line::before, .our-coffee .left-right-line::after{
+	background: #fff;
+	width: 60px
+}
+.our-coffee .left-right-line::before {
+	left: -70px;
+}
+.our-coffee .left-right-line::after {
+	right: -70px;
+}
+.food-booking-form.main-title-area{
+	width: 600px
+}
+.form-style-2{
+	padding: 30px
+}
+.form-style-2 ::placeholder{
+	opacity: 1
+}
+.form-style-2 .btn{
+	margin-top: 30px;
+	border-radius: 0
+}
+.form-style-2 select{
+	border: none
+}
+.form-style-2 .form-control,
+.form-style-2 textarea{
+	border: none;
+	background: transparent;
+	border-bottom: 1px solid transparent;
+	padding: 0;
+	width: 100%;
+	border-radius: 0px
+}
+.form-style-2 .bootstrap-select.form-control{
+	border: none;
+}
+.form-style-2 .bootstrap-select .btn-option{
+	border-radius: 0;
+	border: none;
+	border-bottom: 1px solid transparent;
+	width: 100%;
+	padding-left: 0;
+	padding-right: 0
+}
+.service-type-2 [class*="overlay-"],
+.expart-type-1 [class*="overlay-"] {
+	border-radius: 50%
+}
+.service-type-2 [class*="overlay-"]:before,
+.expart-type-1 [class*="overlay-"]:before {
+	opacity: 0
+}
+.service-type-2:hover [class*="overlay-"]:before,
+.expart-type-1:hover [class*="overlay-"]:before {
+	opacity: 1
+}
+.service-type-2 b{
+	font-weight: 700;
+	font-size: 18px;
+	text-decoration: underline
+}
+.video-bg-1{
+	background: rgba(0, 0, 0, 0) url("../img/width/25.jpg") no-repeat;
+	width: 100%;
+	height: 380px
+}
+.expart-type-1{
+	padding: 30px
+}
+.introduce-block-2 {
+	border-bottom: 1px dotted transparent;
+	padding: 0 25px 20px;
+	display: table
+}
+.blank-area-1{
+	height: 670px
+}
+.mt--600 {
+	margin-top: -600px;
+}
+.p-30{
+	padding: 30px
+}
+.table-style-1 tr td{
+	padding-bottom: 10px
+}
+.table-style-1 tr td:first-child{
+	padding-right: 40px
+}
+.table-style-2 tr td:first-child{
+	padding-right: 20px
+}
+.table-style-2 tr:nth-child(even) td{
+	padding-bottom: 15px
+}
+/*sidebar-style-1 css start*/
+.widget{
+	padding: 30px;
+	margin-bottom: 50px
+}
+.widget h3{
+	margin-bottom: 20px
+}
+.widget.text-block-3{
+	border: 1px solid transparent
+}
+.widget.form-style-3 label{
+	margin-right: 10px;
+}
+.widget.form-style-3 label:last-child{
+	margin-right: 0;
+}
+.widget.form-style-3 .btn{
+	border-radius: 0
+}
+.widget.hotel-booking-number{
+	text-align: center;
+	border: 1px solid transparent
+}
+.widget.hotel-booking-number i {
+	margin-bottom: 20px;
+}
+.widget.hotel-booking-number i::before{
+	font-size: 60px
+}
+.widget.hotel-booking-number h4{
+	margin-bottom: 20px
+}
+.widget.hotel-booking-number span,
+.widget.hotel-booking-number b{
+	display: block;
+	font-size: 20px;
+	font-weight: 600;
+	margin-bottom: 10px
+}
+.place-detail-info{
+	margin-top: 20px
+}
+.place-detail-info .distance{
+	margin-top: 20px
+}
+.place-detail-info .distance strong{
+	font-size: 24px
+}
+.place-item-details .line {
+	width: 100%;
+	display: inline-block;
+	height: 1px;
+	margin: 15px 0
+}
+.place-item-details .photo-gallery a {
+    width: 31.33%;
+    float: left;
+    margin: 0 2% 15px 0;
+}
+.place-item-details .photo-gallery img:nth-child(3n){
+	margin-right: 0
+}
+/*====================================================================
+	46.Room Details page css start
+====================================================================*/
+.widget.check-form{
+	border: 1px solid transparent
+}
+.widget.check-form form,
+.widget.check-form .form-group {
+	display: inline-block;
+	width: 100%
+}
+.widget.check-form .form-group{
+	margin-bottom: 10px
+}
+.widget.check-form h3{
+	margin-bottom: 30px
+}
+.widget.check-form .btn{
+	border-radius: 0;
+	width: 100%
+}
+.widget.check-form .form-control{
+	width: 100%;
+	border-radius: 0
+}
+.widget.check-form .bootstrap-select .btn-option{
+	width: 100%;
+	border: none;
+	border-radius: 0
+}
+.widget.add{
+	padding: 0
+}
+/*====================================================================
+	47.Room Details page details css start
+====================================================================*/
+.amount-per-night del{
+	font-size: 20px;
+	margin-right: 10px
+}
+.slider-arrow{
+	position: absolute;
+	top: 100%;
+	right: 0;
+	transform: translateY(-100%)
+}
+.slider-arrow .carousel-control-prev{
+	margin-right: 3px;
+}
+.img-slide [class*="carousel-control"] {
+	width: 50px;
+	height: 50px;
+	background: #ffd633;
+	opacity: 1;
+	position: static;
+	float: left;
+}
+.room-detail-info{
+	display: inline-block;
+	width: 100%;
+	padding: 30px
+}
+.amount-per-night b{
+	font-weight: 700;
+	font-size: 24px
+}
+.room-detail-info .review i{
+	font-size: 10px
+}
+/*Tab menu*/
+.tab-menu-1 .nav-pills li{
+	margin-bottom: 1px;
+	margin-right: 1px
+}
+.nav-pills .nav-link {
+	border-radius: 0
+}
+.table-style-3 td{
+	padding-right: 40px;
+	font-weight: 400;
+	padding-top: 10px
+}
+.table-style-3 td span{
+	font-weight: 500;
+	margin-right: 5px
+}
+#overview.tab-pane .icon-list-3{
+	float: left;
+	width: 33.33%
+}
+#overview.tab-pane .bg-white{
+	display: inline-block;
+	width: 100%
+}
+.rating-count-1{
+	width: 200px;
+	float: left;
+	padding: 30px 18px;
+	text-align: center;
+	margin-right: 20px
+}
+.rating-count-1 b{
+	font-size: 21px;
+	margin-bottom: 10px
+}
+.rating-count-1 span{
+	font-weight: 500
+}
+.review-2{
+	margin-bottom: 10px
+}
+.progress-style-1{
+	width: 65%;
+	float: left
+}
+.progress-style-1 li{
+	text-align: right;
+	position: relative;
+	margin-bottom: 20px
+}
+.progress-style-1 li span{
+	float: left
+}
+.progress-style-1 .progress {
+	height: 6px;
+	width: 80%;
+	position: absolute;
+	left: 51%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	border-radius: 0;
+}
+.progress-style-1 .progress-bar{
+	border-radius: 0
+}
+.progress-style-1 li:first-child .progress-bar{
+	width: 98%
+}
+.progress-style-1 li:nth-child(2) .progress-bar{
+	width: 80%
+}
+.pair{
+	display: inline-block;
+	width: 100%
+}
+.review-3{
+	margin: 10px 0 20px
+}
+.comment-item{
+	display: inline-block;
+	width: 100%
+}
+.comment-item img{
+	width: 80px;
+	height: 80px;
+	float: left
+}
+.comment-item .content{
+	padding: 25px;
+    position: relative;
+    margin-left: 120px;
+}
+.comment-item .content::after {
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 15px 25px 15px 0;
+	position: absolute;
+	content: "";
+	top: 20px;
+	left: -25px;
+}
+.review-4{
+	font-size: 12px;
+	margin-bottom: 10px
+}
+.comment-item .name-date{
+	font-size: 13px;
+	font-style: italic;
+	margin-bottom: 10px
+}
+.comment-item .name-date span{
+	font-size: 16px;
+	font-weight: 500
+}
+/*======================= 
+	48.Blog sidebar 
+========================*/
+.blog_widget{
+	width: 100%;
+	height: auto;
+	display: inline-block;
+	position: relative
+}
+.post-item:hover [class*="overlay-"]:before{
+	background: transparent;
+}
+.blog_widget .form-control{
+	position: relative;
+	width: 100%
+}
+.src_icon{
+	position: absolute;
+	right: 50px;
+    top: 50px;
+    cursor: pointer;
+}
+.widget_title{
+	position: relative;
+	color:#fff;
+	padding-bottom: 15px;
+}
+.widget_title:before{
+	content: '';
+	position: absolute;
+    left: 0;
+    top: 100%;
+    width: 50px;
+    height: 4px;  
+}
+.title_white:before{
+	background-color: #fff
+}
+.title_blue:before{
+	background-color: #0943a0
+}
+.blog_categories ul li{
+	padding-bottom: 15px;
+}
+.blog_categories ul li a{
+	color: #fff;
+}
+.recent_post ul li {
+	padding-bottom: 30px
+}
+.recent_post ul li a{
+	margin-bottom: 10px;
+	font-weight: 600;
+}
+.archives ul li a{
+	margin-bottom: 15px;
+	font-weight: 500
+}
+.tag ul li{
+	float: left;
+	margin: 0px 5px 5px 0px;
+}
+.tag ul li a{
+	padding:10px 15px;
+	border: 1px solid #a5a5a5;
+	color: #a5a5a5;
+	text-transform: uppercase;
+	font-size: 13px;
+	border-radius: 5px;
+}
+/*====================================================================
+	49.Blog Details page details css start
+====================================================================*/
+.post_data {
+	display: table;
+	margin-bottom: 10px;
+	width: 100%
+}
+.date-type-2{
+	padding: 20px;
+	text-align: center;
+	margin-top: 30px
+}
+.date-type-2 span{
+	font-weight: 500;
+	font-size: 16px;
+	display: block;
+	margin-bottom: 10px
+}
+.date-type-2 span b{
+	font-size: 24px;
+	font-weight: 800
+}
+.date-type-2 b{
+	font-weight: 700;
+	font-size: 18px
+}
+.blog-item-details p{
+	margin-bottom: 25px
+}
+.blog-item-details h4{
+	margin-bottom: 20px
+}
+.blog-item-details img{
+	margin-bottom: 30px
+}
+.blog-item-details .comment-item{
+	border-bottom: 1px solid #dadada;
+	padding: 20px 0;
+}
+.blog-item-details .comment-item a {
+	display: inline;
+	margin-left: 20px
+} 
+.blog-item-details .comment-item .content{
+	background: transparent;
+	padding: 0
+}
+.blog-item-details .comment-item .content::after{
+	border-color: transparent
+}
+.one-line-ul li{
+	float: left
+}
+.one-line-ul li:nth-child(even){
+	margin: 0 10px
+}
+.one-line-ul li i{
+	margin-right: 10px
+}
+.blog-item-details .one-line-ul {
+	display: inline-block;
+	margin: 20px 0 30px;
+}
+.blog-item-details blockquote{
+	position: relative;
+	padding-left: 85px;
+	font-size: 15px;
+	font-weight: 600;
+	line-height: 28px;
+	margin: 30px 0
+}
+.blog-item-details blockquote::after {
+	font-weight: 900;
+	font-family: "Font Awesome 5 Free";
+	font-size: 35px;
+	content: "\f10e";
+	left: 35px;
+	top: 10px;
+	position: absolute;
+}
+.blog-item-details .icon-in-list-1{
+	padding: 20px 0;
+	border-top: 1px solid #dadada;
+	border-bottom: 1px solid #dadada;
+	display: inline-block;
+	width: 100%;
+	margin-bottom: 30px
+}
+.blog-item-details .icon-in-list-1 li{
+	float: none;
+	margin-bottom: 15px
+}
+.blog-item-details .icon-in-list-1 li:last-child{
+	margin-bottom: 0
+}
+.testimonial-item-3{
+	text-align: center
+}
+.testimonial-item-3 img{
+	margin-bottom: 20px;
+}
+.testimonial-item-3 .name{
+	margin: 10px 0 20px
+}
+.social-media-4{
+	display: table;
+	padding: 30px;
+	float: right;
+	text-align: center;
+	margin-top: 30px;
+	position: relative
+}
+.social-media-4::before {
+	position: absolute;
+	width: 1px;
+	height: 100px;
+	bottom: -120px;
+	left: 50%;
+	transform: translateX(-50%);
+	content: "";
+}
+.social-media-4::after {
+	position: absolute;
+	width: 5px;
+	height: 5px;
+	border-radius: 50%;
+	content: "";
+	bottom: -130px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.social-media-4 li{
+	margin-bottom: 15px;
+}
+.social-media-4 li:last-child{
+	margin-bottom: 0
+}
+/*======== pagenation ========*/
+.page-link:hover {
+    z-index: 2;
+    color: #0056b3;
+    text-decoration: none;
+    background-color: #e9ecef;
+    border-color: #dee2e6;
+}
+.page-link:focus{
+	background-color: transparent;
+	border-color: transparent;
+	box-shadow: none;
+}
+.page-item:last-child .page-link {
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.page-item:first-child .page-link {
+    margin-left: 0;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+.page-item{
+	line-height: 45px;
+	margin-right: 5px;
+	width: 45px;
+	height: 45px;
+	text-align: center;
+}
+.page-item a{
+	font-weight: 600;
+	line-height: 30px;
+	border:none;
+}
+.calendar{
+	color: #2a2a2a !important;
+	padding: 12px 18px;
+	margin-right: 30px;
+	margin-bottom: 50px;
+	float: left;
+	text-align: center;
+}
+.calendar span{
+	font-size: 16px;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+.blog-classic p{
+	display: flex;
+}
+.post_data ul li{
+	float: left;
+	color: #b9b9b9;
+    padding: 0px 15px;
+    border-right: 1px solid #b9b9b9;
+}
+.post_data ul li a{
+	display: inline-block;
+	color: #b9b9b9;
+}
+.post_data ul li:first-child{
+	padding-left: 0px;
+}
+.post_data ul li:last-child{
+	border-right: none;
+}
+/*====================================================================
+	50.contact page css start
+====================================================================*/
+.contact-info{
+	position: relative;
+	top: -120px;
+	padding: 80px 60px
+}
+.text-block-4 span{
+	display: block;
+	line-height: 28px
+}
+.text-block-4 h5 {
+	margin-bottom: 20px
+}
+.social-media-3 li{
+	float: left;
+	margin-right: 20px;
+}
+.contact-info .btn{
+	border-radius: 0 !important
+}
+/*====================================================================
+	51.Error page css start
+====================================================================*/
+.error{
+	padding: 250px 0;
+	margin: 0 auto;
+	width: 460px;
+	text-align: center
+}
+.error .left-right-line{
+	font-size: 80px;
+	display: table;
+	margin: 0 auto
+}
+.error h3, .error p{
+	font-family: 'Montserrat', sans-serif;
+	margin-bottom: 20px
+}
+
+/*===================================================================
+	52.News / Blog Pages
+====================================================================*/
+.post-detail .title {
+	line-height: 28px;
+}
+/*===================================================================
+	53.Form Booking Pages
+====================================================================*/
+.contact-form-1.form-style-1::after{
+	display: none
+}
+.contact-form-1.form-style-1 .bootstrap-select.form-control{
+	border-radius: 0;
+}
+.contact-form-1.form-style-1 .bootstrap-select .btn-option{
+	border-color: transparent
+}
+.contact-form-1.form-style-1 .form-group{
+	margin-bottom: 35px
+}
